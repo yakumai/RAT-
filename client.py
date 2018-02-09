@@ -10,7 +10,7 @@ target_port = 1335
 
 #creation socket
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-print 'connexion à l hote distant'
+print 'connexion Ã  l\'hote distant'
 client.connect((target_host,target_port)) 
 
 while 1:
