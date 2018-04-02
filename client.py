@@ -5,12 +5,12 @@
 import socket
 import subprocess
 
-target_host = "192.168.1.1"
+target_host = "192.168.0.29"
 target_port = 1335
 
 #creation socket
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-print 'connexion à l\'hote distant'
+
 client.connect((target_host,target_port)) 
 
 while 1:
